@@ -1,0 +1,32 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "variables";
+
+
+header {
+    background: $primary;
+}
+
+.nav {
+    color: $secondary-font;
+}
+
+
+
+body {
+    color: $primary-font;
+    background: $neutral;
+}
+
+.accordion-item {
+    background: $neutral;
+
+    .accordion-button {
+        background: $neutral;
+    }
+}
+
+
+.card {
+    background: $neutral;
+    border-color: $primary;
+}
